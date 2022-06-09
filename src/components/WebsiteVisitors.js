@@ -2,7 +2,11 @@ import React from 'react'
 
 function WebsiteVisitors() {
   return (
-    <div>Website Visitors</div>
+    <div>
+    <h5>Website Visitors</h5>
+    <p className='data'>821</p>
+    </div>
+   
   )
 }
 

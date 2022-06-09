@@ -18,9 +18,18 @@ function App() {
       
       {/* REVIEWS */}
       <div className="reviews section">
-        <Reviews />
-        <AverageRating />
-        <SentiemntAnalysis />
+        
+        <div className="box1 boxes">
+          <Reviews />
+        </div>
+        
+        <div className="box2 boxes">
+          <AverageRating />
+        </div>   
+        
+        <div className="box3 boxes">
+          <SentiemntAnalysis />
+        </div>
       </div>
       
    

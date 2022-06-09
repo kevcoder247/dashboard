@@ -3,31 +3,61 @@ body {
 }
 
 .container{
-  border: 2px solid red;
-	max-width: 960;
-	margin: 100px auto;
+  /* border: 2px solid red; */
+  background-color: #f7f6f6;
+	width: 920px;
+	margin: 100px auto; 
 	padding: 10px;
   display: grid;
   grid-template-columns: 1fr 4fr;
+  gap: 10px;
+
 }
 
 .sidebar{
-  background-color: blueviolet;
+  background-color: #ddd;
+  border-radius: 25px;
+  height: 500px;
+  padding: 20px;
+  padding-top: 30px;
+  margin: auto;
+  width: 90%;
 }
 
 .reviews{
-  background-color: rgb(216, 211, 211);
+  /* background-color: black; */
   grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* border: 5px solid yellow; */
+  width: 90%;
+  margin: auto;
+}
+.boxes{
+  
+  width: 215px;
+  height: 300px;
+  border-radius: 25px; 
+  text-align: center;
+  background-color: #ddd;
+  margin-top: 10px;
 }
 
 .visitors{
   background-color: aqua;
-  /* border: 2px solid yellow; */
+  /* border: 2px solid black; */
+  border-radius: 25px ;
+  height: 260px;
+  width: 800px;
+  background-color: #ddd;
+  margin: auto;
+  padding-left: 20px;
+  width: 90%;
 }
 .section{
-  border: 2px solid rgb(100, 131, 54);
+  /* border: 2px solid rgb(100, 131, 54); */
 }
-
 
 .section:nth-of-type(1){
   grid-row: 1/3;
@@ -36,3 +66,15 @@ body {
 .section:nth-of-type(3){
   grid-column: 2/3;
 }
+h5{
+  font-size: 1.2rem;
+}
+.data{
+  font-size: 1.2rem;
+  margin-top: -20px;
+}
+.dataAn{
+  font-size: 1.2rem;
+  line-height: 35%;
+}
+
