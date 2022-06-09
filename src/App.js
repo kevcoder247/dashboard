@@ -10,26 +10,25 @@ function App() {
     <div className="container">
     
     {/* SIDEBAR */}
-    <div className="sidebar"> 
+    <div className="sidebar section"> 
       <Sidebar />
     </div>   
       
-      <br />
-      <hr/>
+   
       
       {/* REVIEWS */}
-      <div className="reviews">
+      <div className="reviews section">
         <Reviews />
         <AverageRating />
         <SentiemntAnalysis />
       </div>
       
-      <br />
-      <hr/>
+   
       {/* VISITORS */}
-      <div className="visitors">
+      <div className="visitors section">
       <WebsiteVisitors />
       </div>
+      {/* end of container */}
     </div>
   );
 }
