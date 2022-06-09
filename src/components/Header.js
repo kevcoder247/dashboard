@@ -1,5 +1,7 @@
 export default function Header() {
   return (
-    <div>Header</div>
+    <header>
+        <h1>Dash Board</h1>
+    </header>
   )
 }
